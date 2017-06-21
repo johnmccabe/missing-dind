@@ -1,4 +1,4 @@
-# Missing DIND
+# Missing DIND [![Docker Automated build](https://img.shields.io/docker/automated/johnmccabe/dind.svg?style=flat-square)](https://hub.docker.com/r/johnmccabe/dind/)
 
 This repo contains Dockerfiles based on Dockers [DIND images](https://hub.docker.com/_/docker/) for old Docker versions which aren't currently available on the Hub, i.e. versions older than `1.11.2`.
 
