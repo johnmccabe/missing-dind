@@ -1,12 +1,12 @@
-# Missing DIND [![Docker Automated build](https://img.shields.io/docker/automated/johnmccabe/dind.svg?style=flat-square)](https://hub.docker.com/r/johnmccabe/dind/)
+# Missing DinD [![Docker Automated build](https://img.shields.io/docker/automated/johnmccabe/dind.svg?style=flat-square)](https://hub.docker.com/r/johnmccabe/dind/)
 
-This repo contains Dockerfiles based on Dockers [DIND images](https://hub.docker.com/_/docker/) for old Docker versions which aren't currently available on the Hub, i.e. versions older than `1.11.2`.
+This repo contains Dockerfiles based on Dockers [DinD images](https://hub.docker.com/_/docker/) for old Docker versions which aren't currently available on the Hub, i.e. versions older than `1.11.2`.
 
 **WARNING** these are very basic implementations, if you encounter any issues please raise a bug or even better a PR.
 
-## DIND Versions
+## DinD Versions
 
-The following versions of DIND are currently available as of Jun 2017.
+The following versions of DinD are currently available as of Jun 2017.
 
 ### Docker Supplied Versions
 
@@ -18,7 +18,7 @@ The following versions of DIND are currently available as of Jun 2017.
 - docker:1.12.6-dind
 - docker:1.11.2-dind
 
-### Missing DIND Versions
+### Missing DinD Versions
 
 - johnmccabe/dind:1.10.3
 - johnmccabe/dind:1.9.1
@@ -42,12 +42,12 @@ make image
 
 ## Running
 
-The Missing DIND images can be run in the same way as Dockers official DIND images:
+The Missing DinD images can be run in the same way as Dockers official DinD images:
 ```
 # docker run --rm --privileged --name dind183 -ti johnmccabe/dind:1.8.3
 ```
 
-You can also use the Missing DIND images as docker clients (where `dind183` below is the name/id of the DIND server you're talking to):
+You can also use the Missing DinD images as docker clients (where `dind183` below is the name/id of the DinD server you're talking to):
 ```
 # docker run --rm -e DOCKER_HOST=tcp://docker:2375 --link dind183:docker -ti johnmccabe/dind:1.8.3 docker version
 
