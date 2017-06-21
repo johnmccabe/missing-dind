@@ -102,16 +102,16 @@ https://apt.dockerproject.org/repo/dists/ubuntu-xenial/main/filelist
 - 🐳 docker-engine_17.04.0~ce-0~ubuntu-xenial_amd64.deb
 - 🐳 docker-engine_17.03.1~ce-0~ubuntu-xenial_amd64.deb
   - docker-engine_17.03.0~ce-0~ubuntu-xenial_amd64.deb
-- ✅ 🐳 docker-engine_1.13.1-0~ubuntu-xenial_amd64.deb
+- 🐳 docker-engine_1.13.1-0~ubuntu-xenial_amd64.deb
   - docker-engine_1.13.0-0~ubuntu-xenial_amd64.deb
-- ✅ 🐳 docker-engine_1.12.6-0~ubuntu-xenial_amd64.deb
+- 🐳 docker-engine_1.12.6-0~ubuntu-xenial_amd64.deb
   - docker-engine_1.12.5-0~ubuntu-xenial_amd64.deb
   - docker-engine_1.12.4-0~ubuntu-xenial_amd64.deb
   - docker-engine_1.12.3-0~xenial_amd64.deb
   - docker-engine_1.12.2-0~xenial_amd64.deb
   - docker-engine_1.12.1-0~xenial_amd64.deb
   - docker-engine_1.12.0-0~xenial_amd64.deb
-- ✅ 🐳 docker-engine_1.11.2-0~xenial_amd64.deb
+- 🐳 docker-engine_1.11.2-0~xenial_amd64.deb
   - docker-engine_1.11.1-0~xenial_amd64.deb
   - docker-engine_1.11.0-0~xenial_amd64.deb
 ```
